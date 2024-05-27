@@ -1,0 +1,25 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+#[shell]
+#program = "/bin/zsh"
+#args = "-l"
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "HackNerdFont Mono"
+
+[window]
+decorations = "Transparent"
+opacity = 0.9
+padding = { x = 4, y = 4 }
+dynamic_padding = true
+
